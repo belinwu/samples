@@ -1,0 +1,42 @@
+def deps = [:]
+ext.deps = deps
+
+def vers = [:]
+ext.vers = vers
+
+// versions
+vers.support = "27.1.0"
+vers.androidx = "1.0.0-beta01"
+vers.constraint = "1.1.0"
+vers.lifecycle = "2.0.0-beta01"
+vers.room = "1.1.0-alpha2"
+vers.paging = "1.0.0-alpha5"
+vers.kotlin = "1.2.30"
+vers.coroutines = "0.19.3"
+vers.material = "1.0.0-alpha1"
+vers.junit = "4.12"
+vers.compileSdk = 28
+vers.minSdk = 15
+vers.targetSdk = 28
+
+// dependencies
+deps.appcompat = "androidx.appcompat:appcompat:${vers.androidx}"
+deps.lifecycle = "androidx.lifecycle:lifecycle-runtime:$vers.lifecycle"
+deps.lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:$vers.lifecycle"
+deps.lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel:$vers.lifecycle"
+deps.lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:$vers.lifecycle"
+deps.constraint = "androidx.constraintlayout:constraintlayout:$vers.constraint"
+deps.material = "com.google.android.material:material:$vers.material"
+deps.junit = "junit:junit:$vers.junit"
+deps.kotlin = "org.jetbrains.kotlin:kotlin-stdlib:$vers.kotlin"
+
+deps.livedata = "android.arch.lifecycle:livedata:$vers.lifecycle"
+deps.room = "android.arch.persistence.room:runtime:$vers.room"
+deps.paging = "android.arch.paging:runtime:$vers.paging"
+deps.coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$vers.coroutines"
+deps.coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$vers.coroutines"
+deps.cardview = "com.android.support:cardview-v7:$vers.support"
+deps.recyclerview = "com.android.support:recyclerview-v7:$vers.support"
+deps.recyclerviewSelection = "com.android.support:recyclerview-selection:$vers.support"
+
+
