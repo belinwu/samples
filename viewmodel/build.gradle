@@ -24,7 +24,12 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation deps.kotlin
     implementation deps.appcompat
-    implementation deps.lifecycleExtensions
+    implementation deps.room
+    implementation deps.paging
+    implementation deps.paging_ktx
+    implementation deps.material
+    implementation deps.coroutines_android
+    implementation deps.lifecycle_extensions
     implementation deps.constraint
     testImplementation deps.junit
 }
