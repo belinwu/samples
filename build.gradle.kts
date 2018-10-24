@@ -28,3 +28,7 @@ allprojects {
         maven { url = uri("https://dl.bintray.com/russhwolf/multiplatform-settings") }
     }
 }
+
+task("clean", Delete::class) {
+    delete(rootProject.buildDir)
+}

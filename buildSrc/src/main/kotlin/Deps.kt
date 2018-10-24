@@ -6,7 +6,7 @@ object Vers {
     const val buildTools = "28.0.3"
     const val support = "28.0.0"
     const val androidx = "1.0.0"
-    const val kotlin = "1.3.0-rc-190"
+    const val kotlin = "1.3.0"
     const val lifecycle = "2.0.0"
     const val room = "2.0.0"
     const val paging = "2.1.0-alpha01"
