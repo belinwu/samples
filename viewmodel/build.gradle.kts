@@ -31,6 +31,7 @@ dependencies {
     implementation(Deps.paging_ktx)
     implementation(Deps.material)
     implementation(Deps.coroutines_android)
+    implementation(Deps.atomicfu)
     implementation(Deps.lifecycle)
     implementation(Deps.constraint)
     testImplementation(Deps.junit)
