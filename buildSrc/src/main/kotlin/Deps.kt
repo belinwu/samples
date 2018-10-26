@@ -66,6 +66,7 @@ object Deps {
     const val kotlin_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Vers.kotlin}"
     const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:${Vers.kotlin}"
     const val kotlin_scripting = "org.jetbrains.kotlin:kotlin-scripting-jvm:${Vers.kotlin}"
+    const val coroutines_jvm = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Vers.coroutines}"
     const val coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Vers.coroutines}"
     const val atomicfu = "org.jetbrains.kotlinx:atomicfu:${Vers.atomicfu}"
     const val kotlinx_metadata_jvm = "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.0.4"
