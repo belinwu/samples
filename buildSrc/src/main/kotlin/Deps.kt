@@ -12,7 +12,7 @@ object Vers {
     const val paging = "2.1.0-alpha01"
     const val navigation = "1.0.0-alpha06"
     const val work = "1.0.0-alpha10"
-    const val coroutines = "1.0.0-RC1"
+    const val coroutines = "1.0.0"
     const val atomicfu = "0.11.12"
     const val anko = "0.10.7-rc13"
     const val constraint = "2.0.0-alpha2"
