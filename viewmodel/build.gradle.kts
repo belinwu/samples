@@ -26,7 +26,7 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlin)
     implementation(Deps.appcompat)
-    implementation(Deps.lifecycle)
+    implementation(Deps.lifecycle_extensions)
     implementation(Deps.constraint)
     testImplementation(Deps.junit)
 }
