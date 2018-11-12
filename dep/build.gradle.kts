@@ -7,7 +7,7 @@ plugins {
 android {
     compileSdkVersion(Vers.compileSdk)
     defaultConfig {
-        applicationId = "com.samelody.samples.viewmodel"
+        applicationId = "com.samelody.samples.dep"
         minSdkVersion(Vers.minSdk)
         targetSdkVersion(Vers.targetSdk)
         versionCode = 1
@@ -26,6 +26,12 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlin)
     implementation(Deps.appcompat)
+    implementation(Deps.room)
+    implementation(Deps.paging)
+    implementation(Deps.paging_ktx)
+    implementation(Deps.material)
+    implementation(Deps.coroutines_android)
+    implementation(Deps.atomicfu)
     implementation(Deps.lifecycle)
     implementation(Deps.constraint)
     testImplementation(Deps.junit)
