@@ -72,7 +72,7 @@ object Deps {
     const val slice = "androidx.slice:slice-core:${Vers.androidx}"
     const val sliceView = "androidx.slice:slice-view:${Vers.androidx}"
     const val constraint = "androidx.constraintlayout:constraintlayout:${Vers.constraint}"
-    const val material = "com.google.android.material:material:1.0.0"
+    const val material = "com.google.android.material:material:1.1.0-alpha01"
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:${Vers.kotlin}"
     const val kotlin_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Vers.kotlin}"
     const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:${Vers.kotlin}"
