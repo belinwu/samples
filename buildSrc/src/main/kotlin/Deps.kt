@@ -9,13 +9,13 @@ object Vers {
     @Deprecated("To be removed")
     const val androidx = "1.0.0"
 
-    const val kotlin = "1.3.0"
+    const val kotlin = "1.3.10"
     const val lifecycle = "2.0.0"
     const val room = "2.1.0-alpha02"
     const val paging = "2.1.0-beta01"
     const val navigation = "1.0.0-alpha07"
     const val work = "1.0.0-alpha11"
-    const val coroutines = "1.0.0"
+    const val coroutines = "1.0.1"
     const val atomicfu = "0.11.12"
     const val anko = "0.10.7-rc13"
     const val constraint = "2.0.0-alpha2"
