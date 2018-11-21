@@ -47,5 +47,7 @@ dependencies {
     implementation(Deps.collection)
     implementation(Deps.collection_ktx)
     implementation(Deps.constraint)
+    implementation(Deps.ktor_client_android)
+    implementation(Deps.ktor_client_okhttp)
     testImplementation(Deps.junit)
 }
