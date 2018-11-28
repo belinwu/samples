@@ -49,5 +49,10 @@ dependencies {
     implementation(Deps.constraint)
     implementation(Deps.ktor_client_android)
     implementation(Deps.ktor_client_okhttp)
+    implementation(Deps.okio)
+    implementation(Deps.glide)
+    implementation(Deps.retrofit)
+    implementation(Deps.gson)
+    implementation(Deps.simplecropview)
     testImplementation(Deps.junit)
 }
