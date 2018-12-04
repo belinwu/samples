@@ -27,6 +27,6 @@ dependencies {
     implementation(Deps.kotlin)
     implementation(Deps.appcompat)
     implementation(Deps.lifecycle_extensions)
-    implementation(Deps.constraint)
+    implementation(Deps.constraintlayout)
     testImplementation(Deps.junit)
 }
