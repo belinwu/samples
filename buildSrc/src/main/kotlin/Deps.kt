@@ -4,7 +4,7 @@ object Vers {
     const val targetSdk = 28
     const val minSdk = 21
     const val buildTools = "28.0.3"
-    const val kotlin = "1.3.20-eap-100"
+    const val kotlin = "1.3.20"
 }
 
 object Deps {
