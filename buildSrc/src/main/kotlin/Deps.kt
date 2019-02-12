@@ -4,7 +4,7 @@ object Vers {
     const val targetSdk = 28
     const val minSdk = 21
     const val buildTools = "28.0.3"
-    const val kotlin = "1.3.20"
+    const val kotlin = "1.3.21"
 }
 
 object Deps {
@@ -92,13 +92,13 @@ object Deps {
     const val savedstate_bundle = "androidx.savedstate:savedstate-bundle:1.0.0-alpha01"
     const val viewpager2 = "androidx.viewpager2:viewpager2:1.0.0-alpha01"
 
-    const val material = "com.google.android.material:material:1.1.0-alpha02"
+    const val material = "com.google.android.material:material:1.1.0-alpha03"
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:${Vers.kotlin}"
     const val kotlin_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${Vers.kotlin}"
     const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:${Vers.kotlin}"
     const val kotlin_scripting = "org.jetbrains.kotlin:kotlin-scripting-jvm:${Vers.kotlin}"
-    const val coroutines_jvm = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0"
-    const val coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.0"
+    const val coroutines_jvm = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1"
+    const val coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
     const val atomicfu = "org.jetbrains.kotlinx:atomicfu:0.12.0"
     const val kotlinx_metadata_jvm = "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.0.4"
     const val kotlinx_io_jvm = "org.jetbrains.kotlinx:kotlinx-io-jvm:0.1.1"
