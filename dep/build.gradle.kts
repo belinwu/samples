@@ -119,5 +119,6 @@ dependencies {
     implementation(Deps.simplecropview)
     implementation(Deps.remotecallback)
     implementation(Deps.eventbus)
+    implementation(Deps.gifencoder)
     testImplementation(Deps.junit)
 }

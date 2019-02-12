@@ -148,4 +148,5 @@ object Deps {
     const val blurkit = "io.alterac.blurkit:blurkit:1.0.0"
     const val subsampling_imageview = "com.davemorrissey.labs:subsampling-scale-image-view:3.10.0"
     const val eventbus = "org.greenrobot:eventbus:3.1.1"
+    const val gifencoder = "com.squareup:gifencoder:0.9.1"
 }
