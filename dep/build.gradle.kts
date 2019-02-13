@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion(Vers.compileSdk)
+    compileSdkVersion(Deps.compileSdk)
     defaultConfig {
         applicationId = "com.samelody.samples.dep"
-        minSdkVersion(Vers.minSdk)
-        targetSdkVersion(Vers.targetSdk)
+        minSdkVersion(Deps.minSdk)
+        targetSdkVersion(Deps.targetSdk)
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
@@ -24,7 +24,8 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation(Deps.kotlin)
+    implementation(Deps.kotlin_stdlib)
+    implementation(Deps.kotlin_reflect)
     implementation(Deps.core)
     implementation(Deps.core_ktx)
     implementation(Deps.activity)

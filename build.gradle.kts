@@ -12,8 +12,8 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:${Vers.androidGradlePlugin}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Vers.kotlin}")
+        classpath("com.android.tools.build:gradle:${Deps.androidGradlePlugin}")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Deps.kotlin}")
     }
 }
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-    implementation(Deps.kotlin)
+    implementation(Deps.kotlin_stdlib)
     implementation(Deps.coroutines_jvm)
     implementation(Deps.atomicfu)
 }
