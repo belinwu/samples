@@ -1,5 +1,5 @@
 object Deps {
-    const val androidGradlePlugin = "3.4.0-beta03"
+    const val androidGradlePlugin = "3.4.0-beta05"
     const val compileSdk = 28
     const val targetSdk = 28
     const val minSdk = 21
@@ -28,9 +28,9 @@ object Deps {
     const val paging_ktx = "androidx.paging:paging-runtime-ktx:2.1.0"
     const val paging_rxjava = "androidx.paging:paging-rxjava2:2.1.0"
     const val paging_rxjava_ktx = "androidx.paging:paging-rxjava2-ktx:2.1.0"
-    const val navigation = "android.arch.navigation:navigation-runtime:1.0.0-alpha11"
-    const val navigation_fragment = "android.arch.navigation:navigation-fragment:1.0.0-alpha11"
-    const val navigation_ui = "android.arch.navigation:navigation-ui:1.0.0-alpha11"
+    const val navigation = "androidx.navigation:navigation-runtime:2.0.0-rc02"
+    const val navigation_fragment = "androidx.navigation:navigation-fragment:2.0.0-rc02"
+    const val navigation_ui = "androidx.navigation:navigation-ui:2.0.0-rc02"
     const val work = "android.arch.work:work-runtime:1.0.0-beta05"
     const val work_ktx = "android.arch.work:work-runtime-ktx:1.0.0-beta05"
     const val work_rxjava = "android.arch.work:work-rxjava2:1.0.0-beta05"
