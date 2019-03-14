@@ -25,7 +25,7 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlin_stdlib)
-    implementation(Deps.appcompat)
+    implementation(Deps.appCompat)
     implementation(Deps.lifecycle_extensions)
     implementation(Deps.constraintlayout)
     testImplementation(Deps.junit)
