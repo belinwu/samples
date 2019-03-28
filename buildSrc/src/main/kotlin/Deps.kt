@@ -98,7 +98,7 @@ object Deps {
     const val viewpager2 = "androidx.viewpager2:viewpager2:1.0.0-alpha02"
     const val shareTarget = "androidx.sharetarget:sharetarget:1.0.0-alpha01"
 
-    const val material = "com.google.android.material:material:1.1.0-alpha03"
+    const val material = "com.google.android.material:material:1.1.0-alpha05"
     const val kotlin_stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$kotlin"
     const val kotlin_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin"
     const val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlin"
