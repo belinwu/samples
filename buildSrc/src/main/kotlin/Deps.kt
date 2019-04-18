@@ -1,5 +1,5 @@
 object Deps {
-    const val androidGradlePlugin = "3.4.0-rc02"
+    const val androidGradlePlugin = "3.4.0"
     const val compileSdk = 28
     const val targetSdk = 28
     const val minSdk = 21
