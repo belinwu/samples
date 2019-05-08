@@ -17,6 +17,7 @@ object Deps {
     const val webkit = "androidx.webkit:webkit:1.0.0"
     const val lifecycle = "androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04"
     const val lifecycle_extensions = "androidx.lifecycle:lifecycle-extensions:2.1.0-alpha04"
+    const val lifecycleReactiveStreams = "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.1.0-alpha04"
     const val viewmodel = "androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04"
     const val viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-alpha04"
     const val viewModelSavedState = "androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-alpha01"

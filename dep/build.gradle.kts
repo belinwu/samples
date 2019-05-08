@@ -49,6 +49,7 @@ dependencies {
     implementation(Deps.recyclerview)
     implementation(Deps.recyclerview_selection)
     implementation(Deps.lifecycle)
+    implementation(Deps.lifecycleReactiveStreams)
     implementation(Deps.appCompat)
     implementation(Deps.appCompatResources)
     implementation(Deps.room)
