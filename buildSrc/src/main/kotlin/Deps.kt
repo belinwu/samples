@@ -115,7 +115,7 @@ object Deps {
     const val kotlinx_metadata_jvm = "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.0.4"
     const val kotlinx_io_jvm = "org.jetbrains.kotlinx:kotlinx-io-jvm:0.1.1"
     const val flexbox = "com.google.android:flexbox:1.1.0"
-    const val okhttp = "com.squareup.okhttp3:okhttp:3.13.1"
+    const val okhttp = "com.squareup.okhttp3:okhttp:4.0.0-alpha01"
     const val gson = "com.google.code.gson:gson:2.8.5"
     const val retrofit = "com.squareup.retrofit2:retrofit:2.5.0"
     const val glide = "com.github.bumptech.glide:glide:4.9.0"
