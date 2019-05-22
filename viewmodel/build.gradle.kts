@@ -6,6 +6,7 @@ plugins {
 
 android {
     compileSdkVersion(Deps.compileSdk)
+    buildToolsVersion(Deps.buildTools)
     defaultConfig {
         applicationId = "com.samelody.samples.viewmodel"
         minSdkVersion(Deps.minSdk)
@@ -24,9 +25,9 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation(Deps.kotlin_stdlib)
+    implementation(Deps.kotlinStdlib)
     implementation(Deps.appCompat)
     implementation(Deps.lifecycle_extensions)
-    implementation(Deps.constraintlayout)
+    implementation(Deps.constraintLayout)
     testImplementation(Deps.junit)
 }

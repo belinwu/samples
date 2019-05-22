@@ -9,6 +9,7 @@ buildscript {
         maven { url = uri("http://dl.bintray.com/kotlin/kotlin-dev") }
         maven { url = uri("http://dl.bintray.com/kotlin/kotlinx") }
         maven { url = uri("https://dl.bintray.com/russhwolf/multiplatform-settings") }
+        maven { url = uri("https://jitpack.io") }
     }
 
     dependencies {
@@ -26,6 +27,7 @@ allprojects {
         maven { url = uri("http://dl.bintray.com/kotlin/kotlin-dev") }
         maven { url = uri("http://dl.bintray.com/kotlin/kotlinx") }
         maven { url = uri("https://dl.bintray.com/russhwolf/multiplatform-settings") }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
