@@ -30,6 +30,7 @@ dependencies {
     implementation(Deps.annotation)
     implementation(Deps.core)
     implementation(Deps.coreKtx)
+    implementation(Deps.coreRole)
     implementation(Deps.cameraCore)
     implementation(Deps.cameraCamera2)
     implementation(Deps.customView)
