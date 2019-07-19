@@ -136,6 +136,7 @@ dependencies {
     implementation(Deps.okHttp)
     implementation(Deps.okio)
     implementation(Deps.glide)
+    implementation(Deps.rxJava3)
     implementation(Deps.photoView)
     implementation(Deps.exoPlayer)
     implementation(Deps.exoPlayerRtmp)
