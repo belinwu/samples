@@ -114,7 +114,7 @@ object Deps {
     const val shareTarget = "androidx.sharetarget:sharetarget:1.0.0-alpha02"
     const val securityCrypto = "androidx.security:security-crypto:1.0.0-alpha02"
 
-    const val material = "com.google.android.material:material:1.1.0-alpha07"
+    const val material = "com.google.android.material:material:1.1.0-alpha08"
     const val guava = "com.google.guava:guava:28.0-android"
     const val arCore = "com.google.ar:core:1.9.0"
     const val sceneformCore = "com.google.ar.sceneform:core:1.9.0"
