@@ -1,10 +1,10 @@
 object Deps {
-    const val androidGradlePlugin = "3.5.0-beta05"
+    const val androidGradlePlugin = "3.5.0-rc01"
     const val compileSdk = 29
     const val targetSdk = 29
     const val minSdk = 21
     const val buildTools = "28.0.3"
-    const val kotlin = "1.3.40"
+    const val kotlin = "1.3.50-eap-5"
     const val annotation = "androidx.annotation:annotation:1.1.0"
     const val benchmark = "androidx.benchmark:benchmark:1.0.0-alpha03"
     const val core = "androidx.core:core:1.2.0-alpha02"
@@ -130,7 +130,7 @@ object Deps {
     const val kotlinxMetadataJvm = "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.0.4"
     const val kotlinxIoJvm = "org.jetbrains.kotlinx:kotlinx-io-jvm:0.1.1"
     const val flexbox = "com.google.android:flexbox:1.1.0"
-    const val leakCanary = "com.squareup.leakcanary:leakcanary-android:2.0-alpha-2"
+    const val leakCanary = "com.squareup.leakcanary:leakcanary-android:2.0-alpha-3"
     const val okHttp = "com.squareup.okhttp3:okhttp:4.0.0"
     const val gson = "com.google.code.gson:gson:2.8.5"
     const val retrofit = "com.squareup.retrofit2:retrofit:2.5.0"
