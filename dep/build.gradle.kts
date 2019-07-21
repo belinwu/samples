@@ -157,6 +157,9 @@ dependencies {
     implementation(Deps.leakCanary)
     implementation(Deps.lottie)
     implementation(Deps.subsamplingImageView)
+    implementation(Deps.fresco)
+    implementation(Deps.frescoGif)
+    implementation(Deps.frescoWebp)
 //    implementation(Deps.guava)
 
     testImplementation(Deps.benchmark)
