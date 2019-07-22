@@ -80,6 +80,7 @@ dependencies {
     implementation(Deps.paletteKtx)
     implementation(Deps.recommendation)
     implementation(Deps.material)
+    implementation(Deps.coroutinesCore)
     implementation(Deps.coroutinesAndroid)
     implementation(Deps.kotlinxIoJvm)
     implementation(Deps.atomicfu)
