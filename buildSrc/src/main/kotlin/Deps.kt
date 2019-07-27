@@ -30,7 +30,7 @@ object Deps {
     const val fragment = "androidx.fragment:fragment:1.2.0-alpha01"
     const val fragmentKtx = "androidx.fragment:fragment-ktx:1.2.0-alpha01"
     const val webkit = "androidx.webkit:webkit:1.1.0-alpha01"
-    const val lifecycle = "androidx.lifecycle:lifecycle-runtime:$lifecycleVersion"
+    const val lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion"
     const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
     const val lifecycleReactiveStreams = "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycleVersion"
     const val viewModel = "androidx.lifecycle:lifecycle-viewmodel:$lifecycleVersion"
