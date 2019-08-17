@@ -68,6 +68,8 @@ dependencies {
     implementation(Deps.appCompatResources)
     implementation(Deps.autofill)
     implementation(Deps.emoji)
+    implementation(Deps.emojiAppCompat)
+    implementation(Deps.emojiBundled)
     implementation(Deps.room)
     implementation(Deps.roomKtx)
     implementation(Deps.roomCoroutines)
@@ -168,6 +170,8 @@ dependencies {
     implementation(Deps.frescoGif)
     implementation(Deps.frescoWebp)
     implementation(Deps.workflowAndroid)
+    implementation(Deps.coil)
+    implementation(Deps.kotlinImmutableCollections)
 //    implementation(Deps.guava)
 
     testImplementation(Deps.benchmark)
