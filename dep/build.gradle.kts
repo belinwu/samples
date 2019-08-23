@@ -98,6 +98,7 @@ dependencies {
     implementation(Deps.media2Widget)
     implementation(Deps.media2Session)
     implementation(Deps.media2Player)
+    implementation(Deps.media2ExoPlayer)
     implementation(Deps.mediaRouter)
     implementation(Deps.exifInterface)
     implementation(Deps.contentPager)
@@ -171,7 +172,9 @@ dependencies {
     implementation(Deps.frescoWebp)
     implementation(Deps.workflowAndroid)
     implementation(Deps.coil)
+    implementation(Deps.coilGif)
     implementation(Deps.kotlinImmutableCollections)
+    implementation(Deps.timber)
 //    implementation(Deps.guava)
 
     testImplementation(Deps.benchmark)

@@ -29,5 +29,6 @@ dependencies {
     implementation(Deps.appCompat)
     implementation(Deps.lifecycleExtensions)
     implementation(Deps.constraintLayout)
+    implementation(Deps.coil)
     testImplementation(Deps.junit)
 }
