@@ -56,7 +56,7 @@ dependencies {
     implementation(Deps.listenableFutureCallback)
     implementation(Deps.preference)
     implementation(Deps.preferenceKtx)
-    implementation(Deps.viewModelKtx)
+    implementation(Deps.viewModel)
     implementation(Deps.viewModelSavedState)
     implementation(Deps.liveDataKtx)
     implementation(Deps.recyclerView)
