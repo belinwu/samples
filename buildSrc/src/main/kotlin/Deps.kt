@@ -13,7 +13,7 @@ object Deps {
     const val pagingVersion = "2.1.0"
     const val roomVersion = "2.2.0-rc01"
     const val lifecycleVersion = "2.2.0-alpha05"
-    const val coroutinesVersion = "1.3.1"
+    const val coroutinesVersion = "1.3.2"
     const val adsIdVersion = "1.0.0-alpha01"
     const val listenableFutureVersion = "1.0.0-beta01"
     const val coreVersion = "1.2.0-alpha04"
