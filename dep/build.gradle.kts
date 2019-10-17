@@ -74,7 +74,6 @@ dependencies {
     implementation(Deps.emojiBundled)
     implementation(Deps.room)
     implementation(Deps.roomKtx)
-    implementation(Deps.roomCoroutines)
     implementation(Deps.roomMigration)
     implementation(Deps.sqlite)
     implementation(Deps.sqliteKtx)
