@@ -29,4 +29,9 @@ dependencies {
     implementation(Deps.viewModel)
     implementation(Deps.constraintLayout)
     testImplementation(Deps.junit)
+    androidTestImplementation(Deps.testCore)
+    androidTestImplementation(Deps.testMonitor)
+    androidTestImplementation(Deps.testRunner)
+    androidTestImplementation(Deps.testRules)
+    androidTestImplementation(Deps.testJunit)
 }

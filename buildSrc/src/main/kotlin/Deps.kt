@@ -1,5 +1,5 @@
 object Deps {
-    const val androidGradlePlugin = "3.5.0"
+    const val androidGradlePlugin = "3.5.1"
     const val compileSdk = 29
     const val targetSdk = 29
     const val minSdk = 21
@@ -72,6 +72,7 @@ object Deps {
     const val testMonitor = "androidx.test:monitor:1.2.0"
     const val testRunner = "androidx.test:runner:1.2.0"
     const val testRules = "androidx.test:rules:1.2.0"
+    const val testJunit = "androidx.test.ext:junit:1.1.1"
     const val espresso = "androidx.test.espresso:espresso-core:3.2.0"
     const val loader = "androidx.loader:loader:1.1.0-rc01"
     const val futures = "androidx.concurrent:concurrent-futures:1.0.0"
@@ -137,7 +138,7 @@ object Deps {
     const val shareTarget = "androidx.sharetarget:sharetarget:1.0.0-beta01"
     const val securityCrypto = "androidx.security:security-crypto:1.0.0-alpha02"
 
-    const val material = "com.google.android.material:material:1.1.0-alpha10"
+    const val material = "com.google.android.material:material:1.1.0-beta01"
     const val guava = "com.google.guava:guava:28.0-android"
     const val arCore = "com.google.ar:core:1.11.0"
     const val sceneformCore = "com.google.ar.sceneform:core:1.11.0"
