@@ -27,7 +27,7 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlinStdlib)
     implementation(Deps.kotlinReflect)
-    implementation(Deps.kotlinCompiler)
+//    implementation(Deps.kotlinCompiler)
     implementation(Deps.adsId)
     implementation(Deps.adsIdProvider)
     implementation(Deps.annotation)
@@ -176,6 +176,7 @@ dependencies {
     implementation(Deps.coilGif)
     implementation(Deps.kotlinImmutableCollections)
     implementation(Deps.timber)
+    implementation(Deps.imageViewTouch)
 //    implementation(Deps.guava)
 
     testImplementation(Deps.benchmark)
