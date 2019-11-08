@@ -52,6 +52,7 @@ dependencies {
     implementation(Deps.enterpriseFeedback)
     implementation(Deps.fragment)
     implementation(Deps.fragmentKtx)
+    implementation(Deps.fragmentTesting)
     implementation(Deps.loader)
     implementation(Deps.futures)
     implementation(Deps.listenableFuture)

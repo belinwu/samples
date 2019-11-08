@@ -4,6 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()
         maven { url = uri("https://dl.bintray.com/kotlin/ktor") }
         maven { url = uri("http://dl.bintray.com/kotlin/kotlin-eap") }
         maven { url = uri("http://dl.bintray.com/kotlin/kotlin-dev") }
@@ -22,6 +23,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
         maven { url = uri("https://dl.bintray.com/kotlin/ktor") }
         maven { url = uri("http://dl.bintray.com/kotlin/kotlin-eap") }
         maven { url = uri("http://dl.bintray.com/kotlin/kotlin-dev") }
