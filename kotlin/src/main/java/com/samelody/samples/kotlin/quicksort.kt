@@ -117,6 +117,26 @@ fun<T: Comparable<T>> MutableList<T>.lomutoQuicksortIterative(low: Int, high: In
     }
 }
 
+fun<T: Comparable<T>> MutableList<T>.lomutoQuicksortIterativeUseArray(low: Int, high: Int) {
+    val stack = IntArray(high - low + 1)
+    var top = -1
+    stack[++top] = low
+    stack[++top] = high
+    while (top >= 0) {
+        val end = stack[top--]
+        val start = stack[top--]
+        val p = lomutoPartition(start, end)
+        if ((p - 1) > start) {
+            stack[++top] = start
+            stack[++top] = p - 1
+        }
+        if ((p + 1) < end) {
+            stack[++top] = p + 1
+            stack[++top] = end
+        }
+    }
+}
+
 fun main() {
     "Lomuto Quicksort" example {
         val list = arrayListOf(12, 0, 3, 9, 2, 21, 18, 27, 1, 5, 8, -1, 8)
