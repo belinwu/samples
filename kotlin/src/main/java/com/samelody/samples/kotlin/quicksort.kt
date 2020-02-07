@@ -41,17 +41,17 @@ fun <T : Comparable<T>> MutableList<T>.lomutoQuicksort(low: Int, high: Int) {
 }
 
 fun <T : Comparable<T>> MutableList<T>.lomutoMedian(low: Int, high: Int): Int {
-    val center = (low + high) / 2
-    if (this[low] > this[center]) {
-        swapAt(low, center)
+    val mid = (low + high) / 2
+    if (this[low] > this[mid]) {
+        swapAt(low, mid)
     }
     if (this[low] > this[high]) {
         swapAt(low, high)
     }
-    if (this[center] > this[high]) {
-        swapAt(center, high)
+    if (this[mid] > this[high]) {
+        swapAt(mid, high)
     }
-    return center
+    return mid
 }
 
 fun <T : Comparable<T>> MutableList<T>.lomutoMedianQuicksort(low: Int, high: Int) {

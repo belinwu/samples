@@ -3,32 +3,32 @@ package com.samelody.samples.kotlin
 fun IntArray?.mergeSorted(other: IntArray?): IntArray? {
     if (this == null || this.isEmpty()) return other
     if (other == null || other.isEmpty()) return this
-    var thisIndex = 0
-    var otherIndex = 0
-    var resultIndex = 0
+    var i = 0
+    var j = 0
+    var k = 0
     val result = IntArray(this.size + other.size)
-    while (thisIndex < size && otherIndex < other.size) {
-        val thisValue = this[thisIndex]
-        val otherValue = other[otherIndex]
+    while (i < size && j < other.size) {
+        val val1 = this[i]
+        val val2 = other[j]
         when {
-            thisValue == otherValue -> {
-                result[resultIndex++] = thisValue
-                result[resultIndex++] = otherValue
-                thisIndex++
-                otherIndex++
+            val1 == val2 -> {
+                result[k++] = val1
+                result[k++] = val2
+                i++
+                j++
             }
-            thisValue < otherValue -> {
-                result[resultIndex++] = thisValue
-                thisIndex++
+            val1 < val2 -> {
+                result[k++] = val1
+                i++
             }
             else -> {
-                result[resultIndex++] = otherValue
-                otherIndex++
+                result[k++] = val2
+                j++
             }
         }
     }
-    while (thisIndex < this.size) result[resultIndex++] = this[thisIndex++]
-    while (otherIndex < other.size) result[resultIndex++] = other[otherIndex++]
+    while (i < this.size) result[k++] = this[i++]
+    while (j < other.size) result[k++] = other[j++]
     return result
 }
 
