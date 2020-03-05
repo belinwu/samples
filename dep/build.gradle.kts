@@ -26,6 +26,7 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlinStdlib)
+    implementation(Deps.kotlinStdlibJdk8)
     implementation(Deps.kotlinReflect)
 //    implementation(Deps.kotlinCompiler)
     implementation(Deps.adsId)
@@ -149,7 +150,7 @@ dependencies {
     implementation(Deps.okHttp)
     implementation(Deps.okio)
     implementation(Deps.glide)
-    implementation(Deps.rxJava3)
+    implementation(Deps.rxJava)
     implementation(Deps.photoView)
     implementation(Deps.exoPlayer)
     implementation(Deps.exoPlayerRtmp)
@@ -185,6 +186,8 @@ dependencies {
     implementation(Deps.imageViewTouch)
 //    implementation(Deps.hawk)
 //    implementation(Deps.guava)
+    implementation(Deps.window)
+    implementation(Deps.windowExtensions)
 
     testImplementation(Deps.benchmark)
     testImplementation(Deps.workTesting)
