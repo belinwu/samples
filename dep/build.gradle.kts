@@ -173,6 +173,7 @@ dependencies {
     implementation(Deps.easyPermissions)
     implementation(Deps.leakCanary)
     implementation(Deps.lottie)
+    implementation(Deps.mvrx)
     implementation(Deps.subsamplingImageView)
     implementation(Deps.fresco)
     implementation(Deps.frescoAnimated)
@@ -188,6 +189,8 @@ dependencies {
 //    implementation(Deps.guava)
     implementation(Deps.window)
     implementation(Deps.windowExtensions)
+    implementation(Deps.materialDialogsCore)
+    implementation(Deps.materialDialogsDateTime)
 
     testImplementation(Deps.benchmark)
     testImplementation(Deps.workTesting)

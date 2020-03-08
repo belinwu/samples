@@ -1,5 +1,7 @@
 package com.samelody.samples.kotlin
 
+val threadName get() = Thread.currentThread().name
+
 infix fun String.example(block: () -> Unit) {
     println("---Example of $this---")
     block()
