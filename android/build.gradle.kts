@@ -39,8 +39,10 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Deps.kotlinStdlib)
-    implementation(Deps.fragmentKtx)
+    implementation(Deps.fragment)
     implementation(Deps.viewModel)
+    implementation(Deps.lifecycleProcess)
+    implementation(Deps.lifecycleService)
     implementation(Deps.coroutinesAndroid)
     implementation(Deps.constraintLayout)
     testImplementation(Deps.junit)
