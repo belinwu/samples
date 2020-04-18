@@ -14,8 +14,8 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:${Deps.androidGradlePlugin}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Deps.kotlinVersion}")
+        classpath("com.android.tools.build:gradle:${Dep.androidGradleVersion}")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Dep.kotlinVersion}")
     }
 }
 
@@ -30,6 +30,21 @@ allprojects {
         maven { url = uri("http://dl.bintray.com/kotlin/kotlinx") }
         maven { url = uri("https://dl.bintray.com/russhwolf/multiplatform-settings") }
         maven { url = uri("https://jitpack.io") }
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            force(Dep.kotlinStdlib)
+            force(Dep.kotlinStdlibJdk8)
+            force(Dep.kotlinReflect)
+            force(Dep.core)
+            force(Dep.appCompat)
+            force(Dep.appCompatResources)
+            force(Dep.lifecycle)
+            force(Dep.lifecycleCommon)
+            force(Dep.liveData)
+            force(Dep.viewModel)
+        }
     }
 }
 

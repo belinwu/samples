@@ -1,10 +1,11 @@
 @Suppress("MemberVisibilityCanBePrivate")
-object Deps {
-    const val androidGradlePlugin = "4.0.0-beta04"
-    const val compileSdk = 29
-    const val targetSdk = 29
-    const val minSdk = 21
-    const val buildTools = "29.0.2"
+object Dep {
+    // versions
+    const val androidGradleVersion = "4.0.0-beta04"
+    const val compileSdkVersion = 29
+    const val targetSdkVersion = 29
+    const val minSdkVersion = 21
+    const val buildToolsVersion = "29.0.2"
     const val activityVersion = "1.2.0-alpha03"
     const val appCompatVersion = "1.2.0-beta01"
     const val kotlinVersion = "1.4-M1"
@@ -29,6 +30,7 @@ object Deps {
     const val exoPlayerVersion = "2.11.4"
     const val dataBindingVersion = "4.1.0-alpha05"
 
+    // Android Jetpack Libraries
     const val adsId = "androidx.ads:ads-identifier:$adsIdVersion"
     const val adsIdProvider = "androidx.ads:ads-identifier-provider:1.0.0-alpha02"
     const val annotation = "androidx.annotation:annotation:1.1.0"
@@ -52,6 +54,7 @@ object Deps {
     const val fragmentTesting = "androidx.fragment:fragment-testing:$fragmentVersion"
     const val webkit = "androidx.webkit:webkit:1.3.0-alpha01"
     const val lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion"
+    const val lifecycleCommon = "androidx.lifecycle:lifecycle-common:$lifecycleVersion"
     const val lifecycleProcess = "androidx.lifecycle:lifecycle-process:$lifecycleVersion"
     const val lifecycleService = "androidx.lifecycle:lifecycle-service:$lifecycleVersion"
     const val lifecycleReactiveStreams = "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycleVersion"
@@ -65,12 +68,10 @@ object Deps {
     const val roomCompiler = "androidx.room:room-compiler:$roomVersion"
     const val sqlite = "androidx.sqlite:sqlite-ktx:$sqliteVersion"
     const val paging = "androidx.paging:paging-runtime-ktx:$pagingVersion"
-    const val pagingRxJava = "androidx.paging:paging-rxjava2-ktx:$pagingVersion"
     const val navigation = "androidx.navigation:navigation-runtime-ktx:$navigationVersion"
     const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     const val navigationUi = "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     const val work = "androidx.work:work-runtime-ktx:$workVersion"
-    const val workRxJava = "androidx.work:work-rxjava2:$workVersion"
     const val workTesting = "androidx.work:work-testing:$workVersion"
     const val testCore = "androidx.test:core:1.2.0"
     const val testMonitor = "androidx.test:monitor:1.2.0"
@@ -154,7 +155,6 @@ object Deps {
     const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$coroutinesVersion"
     const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
     const val coroutinesSwing = "org.jetbrains.kotlinx:kotlinx-coroutines-swing:$coroutinesVersion"
-    const val coroutinesJavaFx = "org.jetbrains.kotlinx:kotlinx-coroutines-javafx:$coroutinesVersion"
     const val coroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesVersion"
     const val coroutinesDebug = "org.jetbrains.kotlinx:kotlinx-coroutines-debug:$coroutinesVersion"
     const val atomicfu = "org.jetbrains.kotlinx:atomicfu:0.14.2-1.4-M1"
@@ -168,7 +168,6 @@ object Deps {
     const val retrofit = "com.squareup.retrofit2:retrofit:2.8.1"
     const val glide = "com.github.bumptech.glide:glide:4.10.0"
     const val glideCompiler = "com.github.bumptech.glide:compiler:4.10.0"
-    const val rxJava = "io.reactivex.rxjava3:rxjava:3.0.0"
     const val photoView = "com.github.chrisbanes:PhotoView:2.3.0"
     const val timber = "com.jakewharton.timber:timber:4.7.1"
     const val junit = "junit:junit:4.12"
@@ -186,7 +185,6 @@ object Deps {
     const val expanding_collection = "com.ramotion.expandingcollection:expanding-collection:0.9.0"
     const val okio = "com.squareup.okio:okio:2.5.0"
     const val arrowCore = "io.arrow-kt:arrow-core:0.10.4"
-    const val mvrx = "com.airbnb.android:mvrx:1.3.0"
     const val lottie = "com.airbnb.android:lottie:3.4.0"
     const val truth = "com.google.truth:truth:0.42"
     const val ktorClientCore = "io.ktor:ktor-client-core:$ktorVersion"
@@ -210,7 +208,7 @@ object Deps {
     const val frescoGif = "com.facebook.fresco:animated-gif:2.0.0"
     const val frescoAnimated = "com.facebook.fresco:animated-base:2.0.0"
     const val frescoWebp = "com.facebook.fresco:animated-webp:2.0.0"
-    const val eventBus = "org.greenrobot:eventbus:3.1.1"
+    const val eventBus = "org.greenrobot:eventbus:3.2.0"
     const val gifEncoder = "com.squareup:gifencoder:0.9.1"
     const val eiffel = "com.github.etiennelenhart:eiffel:4.1.0"
     const val easyPermissions = "pub.devrel:easypermissions:3.0.0"

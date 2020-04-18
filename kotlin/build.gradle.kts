@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion(Deps.compileSdk)
-    buildToolsVersion(Deps.buildTools)
+    compileSdkVersion(Dep.compileSdkVersion)
+    buildToolsVersion(Dep.buildToolsVersion)
     defaultConfig {
-        minSdkVersion(Deps.minSdk)
-        targetSdkVersion(Deps.targetSdk)
+        minSdkVersion(Dep.minSdkVersion)
+        targetSdkVersion(Dep.targetSdkVersion)
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
@@ -24,12 +24,12 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation(Deps.kotlinStdlib)
-    implementation(Deps.coroutinesSwing)
-    testImplementation(Deps.junit)
-    androidTestImplementation(Deps.testCore)
-    androidTestImplementation(Deps.testMonitor)
-    androidTestImplementation(Deps.testRunner)
-    androidTestImplementation(Deps.testRules)
-    androidTestImplementation(Deps.testJunit)
+    implementation(Dep.kotlinStdlib)
+    implementation(Dep.coroutinesSwing)
+    testImplementation(Dep.junit)
+    androidTestImplementation(Dep.testCore)
+    androidTestImplementation(Dep.testMonitor)
+    androidTestImplementation(Dep.testRunner)
+    androidTestImplementation(Dep.testRules)
+    androidTestImplementation(Dep.testJunit)
 }

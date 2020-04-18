@@ -1,6 +1,6 @@
 # Samples
 
-Samples for Android and Kotlin.
+Samples for learning Android and Kotlin.
 
 # License
 
