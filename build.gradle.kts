@@ -40,6 +40,7 @@ allprojects {
             force(Dep.core)
             force(Dep.appCompat)
             force(Dep.appCompatResources)
+            force(Dep.customView)
             force(Dep.lifecycle)
             force(Dep.lifecycleCommon)
             force(Dep.liveData)
