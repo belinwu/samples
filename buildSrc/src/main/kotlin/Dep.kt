@@ -1,6 +1,7 @@
 @Suppress("MemberVisibilityCanBePrivate")
 object Dep {
     // versions
+    const val javaVersion = "1.8"
     const val androidGradleVersion = "4.2.0-alpha07"
     const val compileSdkVersion = 29
     const val targetSdkVersion = 29
@@ -30,6 +31,7 @@ object Dep {
     const val exoPlayerVersion = "2.11.4"
     const val dataBindingVersion = "4.1.0-alpha05"
     const val composeVersion = "0.1.0-dev16"
+    const val composeCompilerVersion = "1.4.0-rc"
     const val hiltVersion = "1.0.0-alpha02"
     const val frescoVersion = "2.3.0"
 
@@ -63,7 +65,8 @@ object Dep {
     const val lifecycleReactiveStreams = "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycleVersion"
     const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
     const val viewModelSavedState = "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycleVersion"
-    const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
+    const val liveData = "androidx.lifecycle:lifecycle-livedata:$lifecycleVersion"
+    const val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
     const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:$lifecycleVersion"
     const val lifecycleJava8 = "androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion"
     const val room = "androidx.room:room-ktx:$roomVersion"
@@ -82,7 +85,7 @@ object Dep {
     const val testRules = "androidx.test:rules:1.2.0"
     const val testJunit = "androidx.test.ext:junit:1.1.1"
     const val espresso = "androidx.test.espresso:espresso-core:3.2.0"
-    const val loader = "androidx.loader:loader:1.1.0-rc01"
+    const val loader = "androidx.loader:loader:1.1.0"
     const val concurrentFutures = "androidx.concurrent:concurrent-futures-ktx:1.1.0-rc01"
     const val listenableFuture = "androidx.concurrent:concurrent-listenablefuture:$listenableFutureVersion"
     const val listenableFutureCallback = "androidx.concurrent:concurrent-listenablefuture-callback:$listenableFutureVersion"
@@ -159,7 +162,8 @@ object Dep {
     const val composeTextAndroid = "androidx.compose.ui:ui-text-android:$composeVersion"
     const val composeUtil = "androidx.compose.ui:ui-util:$composeVersion"
     const val composeUnit = "androidx.compose.ui:ui-unit:$composeVersion"
-    const val uiTooling = "androidx.ui:ui-tooling:$composeVersion"
+    const val composeTest = "androidx.ui:ui-test:$composeVersion"
+    const val composeTooling = "androidx.ui:ui-tooling:$composeVersion"
     const val gaming = "androidx.gaming:gaming-frame-pacing:1.5.0-alpha01"
     const val tracing = "androidx.tracing:tracing-ktx:1.0.0-alpha01"
     const val startup = "androidx.startup:startup-runtime:1.0.0-alpha02"

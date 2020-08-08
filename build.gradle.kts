@@ -45,6 +45,7 @@ allprojects {
             force(Dep.lifecycleCommon)
             force(Dep.liveData)
             force(Dep.viewModel)
+            force(Dep.loader)
         }
     }
 }
