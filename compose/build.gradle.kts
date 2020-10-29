@@ -83,4 +83,10 @@ dependencies {
 
     testImplementation(Dep.junit)
     testImplementation(Dep.composeTest)
+
+    androidTestImplementation(Dep.testCore)
+    androidTestImplementation(Dep.testMonitor)
+    androidTestImplementation(Dep.testRunner)
+    androidTestImplementation(Dep.testRules)
+    androidTestImplementation(Dep.testJunit)
 }

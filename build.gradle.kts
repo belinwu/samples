@@ -39,6 +39,8 @@ allprojects {
             force(Dep.kotlinReflect)
             force(Dep.core)
             force(Dep.appCompat)
+            force(Dep.annotation)
+            force(Dep.annotationExperimental)
             force(Dep.appCompatResources)
             force(Dep.customView)
             force(Dep.lifecycle)
@@ -46,6 +48,12 @@ allprojects {
             force(Dep.liveData)
             force(Dep.viewModel)
             force(Dep.loader)
+            force(Dep.transition)
+            force(Dep.tracing)
+            force(Dep.vectorDrawable)
+            force(Dep.viewPager2)
+            force(Dep.coroutinesCore)
+            force(Dep.junit)
         }
     }
 }
